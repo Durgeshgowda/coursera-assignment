@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Random texts</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 
-	body{background-color: skyblue;}
+
+	body{background-color: #87CEFA;}
+
+	h1{text-align: center;}
 
 	@media (min-width:992px) {
 		#first, #second, #third {width: 32%;}
- }
+	 }
 
 	@media (max-width:991px) and (min-width:768px) {
 		#first, #second {width: 48%;}
@@ -27,20 +30,20 @@
 			height: auto;
 			font-size: 30px;
 			padding:5px;
-			color: floralwhite;
-			border: solid black;
-			background-color: teal;
+			color: #FFFAF0;
+			border: solid #000000;
+			background-color: #008080;
 			box-sizing: border-box;
 			font-family: "Times New Roman", Times, serif;
 		}
 
 		.wood{
 			float: right;
-			color: black;
-			border: solid black;
+			color: #000000;
+			border: solid #000000;
 			position: relative;
 			padding: 5px;
-			background-color: skyblue;
+			background-color: #87CEFA;
 			margin:2px;
 		}
 
@@ -53,29 +56,29 @@
 </head>
 
 <body>
-	<h1 align="center"><u>Random Texts</u></h1>
+	<h1><u>Random Texts</u></h1>
 
-	<section id="first" >
+	<div id="first" >
 		<div class="wood">Random text 1</div>
 		<div class="cross">The investor with a stock portfolio having such book values behind
 			it can take a much more independent and detached view of stock-market
 			fluctuations than those who have paid high multipliers of both earnings
 			and tangible assets.</div>
-	</section>
+	</div>
 
-	<section id="second">
+	<div id="second">
 		<div class="wood">Random text 2</div>
 		<div class="cross">As long as the earning power of his holdings remains satisfactory,
 			he can give as little attention to the vagaries of the stock market. At times he
 			can use these vagaries to play the master game of buying low and selling high.</div>
-	</section>
+	</div>
 
-	<section id="third">
+	<div id="third">
 			<div class="wood">Random text 3</div>
 			<div class="cross">This optimism had no justification in the company’s earnings
 				record in the preceding years, and it proved completely wrong.
 				Instead of advancing rapidly, the course of earnings in the ensuing
 				period was generally downward.</div>
-	</section>
+	</div>
 </body>
 </html>
